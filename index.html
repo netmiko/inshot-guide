@@ -1,0 +1,9 @@
+<h1>hi</h1>
+  <h2> Redirecting you to https </h2>
+<script>
+  
+if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+  
+</script>
